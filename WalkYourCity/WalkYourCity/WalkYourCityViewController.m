@@ -58,18 +58,22 @@
 
 
 - (IBAction)amusementButton:(UIButton *)sender {
-    sender.alpha = (sender.alpha == 1) ? sender.alpha - .3 : sender.alpha + .3;
+    sender.alpha = (sender.alpha == 1) ? sender.alpha - .5 : sender.alpha + .5;
+    sender.selected = !sender.selected;
 }
 - (IBAction)landmarksButton:(UIButton *)sender {
-    sender.alpha = (sender.alpha == 1) ? sender.alpha - .3 : sender.alpha + .3;
+    sender.alpha = (sender.alpha == 1) ? sender.alpha - .5 : sender.alpha + .5;
+    sender.selected = !sender.selected;
 }
 
 - (IBAction)commerceButton:(UIButton *)sender {
-    sender.alpha = (sender.alpha == 1) ? sender.alpha - .3 : sender.alpha + .3;
+    sender.alpha = (sender.alpha == 1) ? sender.alpha - .5 : sender.alpha + .5;
+    sender.selected = !sender.selected;
 }
 
 - (IBAction)openSpaceButton:(UIButton *)sender {
-    sender.alpha = (sender.alpha == 1) ? sender.alpha - .3 : sender.alpha + .3;
+    sender.alpha = (sender.alpha == 1) ? sender.alpha - .5 : sender.alpha + .5;
+    sender.selected = !sender.selected;
 }
 
 @end
