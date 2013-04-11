@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F385F048170228710014175C /* SignCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = F385F047170228710014175C /* SignCategory.m */; };
-		F385F04D17022B460014175C /* SignCategoryCollection.m in Sources */ = {isa = PBXBuildFile; fileRef = F385F04C17022B460014175C /* SignCategoryCollection.m */; };
 		F399536B1701DEB20072362E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F399536A1701DEB20072362E /* UIKit.framework */; };
 		F399536D1701DEB20072362E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F399536C1701DEB20072362E /* Foundation.framework */; };
 		F399536F1701DEB20072362E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F399536E1701DEB20072362E /* CoreGraphics.framework */; };
@@ -24,10 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F385F046170228710014175C /* SignCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignCategory.h; path = WalkYourCity/Model/SignCategory.h; sourceTree = "<group>"; };
-		F385F047170228710014175C /* SignCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignCategory.m; path = WalkYourCity/Model/SignCategory.m; sourceTree = "<group>"; };
-		F385F04B17022B460014175C /* SignCategoryCollection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignCategoryCollection.h; path = WalkYourCity/Model/SignCategoryCollection.h; sourceTree = "<group>"; };
-		F385F04C17022B460014175C /* SignCategoryCollection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignCategoryCollection.m; path = WalkYourCity/Model/SignCategoryCollection.m; sourceTree = "<group>"; };
 		F39953671701DEB20072362E /* WalkYourCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalkYourCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F399536A1701DEB20072362E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F399536C1701DEB20072362E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,10 +59,6 @@
 		F385F04A170228AB0014175C /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				F385F046170228710014175C /* SignCategory.h */,
-				F385F047170228710014175C /* SignCategory.m */,
-				F385F04B17022B460014175C /* SignCategoryCollection.h */,
-				F385F04C17022B460014175C /* SignCategoryCollection.m */,
 			);
 			name = Model;
 			path = ..;
@@ -200,8 +190,6 @@
 				F39953771701DEB20072362E /* main.m in Sources */,
 				F399537B1701DEB20072362E /* WalkYourCityAppDelegate.m in Sources */,
 				F39953871701DEB20072362E /* WalkYourCityViewController.m in Sources */,
-				F385F048170228710014175C /* SignCategory.m in Sources */,
-				F385F04D17022B460014175C /* SignCategoryCollection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

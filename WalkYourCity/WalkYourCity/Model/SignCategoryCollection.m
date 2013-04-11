@@ -19,8 +19,13 @@
     return _signCategories;
 }
 
-- (void) addCategory:(SignCategory *)signCategory
+- (void) addCategory:(SignCategory *)signCategory : (int) index;
 {
     [self.signCategories addObject:signCategory];//need to make this addAtIndex
+}
+
+- (void) removeCategory:(int)index
+{
+    [self.signCategories removeObjectAtIndex:index];
 }
 @end

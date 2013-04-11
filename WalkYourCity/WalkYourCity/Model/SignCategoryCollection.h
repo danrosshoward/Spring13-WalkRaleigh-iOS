@@ -11,6 +11,8 @@
 
 @interface SignCategoryCollection : NSObject
 
-- (void) addCategory: (SignCategory *) signCategory; //need to put an index parameter in here
+- (void) addCategory: (SignCategory *) signCategory : (int) index; //need to put an index parameter in here
+
+- (void) removeCategory: (int)index;
 
 @end
