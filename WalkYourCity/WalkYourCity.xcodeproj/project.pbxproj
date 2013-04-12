@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F350F3E917178613009CADFA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F350F3E817178613009CADFA /* Default.png */; };
+		F350F3EB17178632009CADFA /* wyc-logobuttonret.png in Resources */ = {isa = PBXBuildFile; fileRef = F350F3EA17178632009CADFA /* wyc-logobuttonret.png */; };
+		F350F3ED17178648009CADFA /* wyc-logobutton2.png in Resources */ = {isa = PBXBuildFile; fileRef = F350F3EC17178648009CADFA /* wyc-logobutton2.png */; };
+		F350F3EF1717865D009CADFA /* wyc-logobuttonret2.png in Resources */ = {isa = PBXBuildFile; fileRef = F350F3EE1717865D009CADFA /* wyc-logobuttonret2.png */; };
+		F350F3F117178672009CADFA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F350F3F017178672009CADFA /* Default@2x.png */; };
 		F399536B1701DEB20072362E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F399536A1701DEB20072362E /* UIKit.framework */; };
 		F399536D1701DEB20072362E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F399536C1701DEB20072362E /* Foundation.framework */; };
 		F399536F1701DEB20072362E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F399536E1701DEB20072362E /* CoreGraphics.framework */; };
@@ -22,6 +27,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F350F3E817178613009CADFA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F350F3EA17178632009CADFA /* wyc-logobuttonret.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wyc-logobuttonret.png"; sourceTree = "<group>"; };
+		F350F3EC17178648009CADFA /* wyc-logobutton2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wyc-logobutton2.png"; sourceTree = "<group>"; };
+		F350F3EE1717865D009CADFA /* wyc-logobuttonret2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wyc-logobuttonret2.png"; sourceTree = "<group>"; };
+		F350F3F017178672009CADFA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		F39953671701DEB20072362E /* WalkYourCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalkYourCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F399536A1701DEB20072362E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F399536C1701DEB20072362E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -67,6 +77,11 @@
 		F399535E1701DEB20072362E = {
 			isa = PBXGroup;
 			children = (
+				F350F3F017178672009CADFA /* Default@2x.png */,
+				F350F3EE1717865D009CADFA /* wyc-logobuttonret2.png */,
+				F350F3EC17178648009CADFA /* wyc-logobutton2.png */,
+				F350F3EA17178632009CADFA /* wyc-logobuttonret.png */,
+				F350F3E817178613009CADFA /* Default.png */,
 				F399538D1701DECF0072362E /* MapKit.framework */,
 				F39953701701DEB20072362E /* WalkYourCity */,
 				F39953691701DEB20072362E /* Frameworks */,
@@ -177,6 +192,11 @@
 				F399537F1701DEB20072362E /* Default@2x.png in Resources */,
 				F39953811701DEB20072362E /* Default-568h@2x.png in Resources */,
 				F39953841701DEB20072362E /* MainStoryboard.storyboard in Resources */,
+				F350F3E917178613009CADFA /* Default.png in Resources */,
+				F350F3EB17178632009CADFA /* wyc-logobuttonret.png in Resources */,
+				F350F3ED17178648009CADFA /* wyc-logobutton2.png in Resources */,
+				F350F3EF1717865D009CADFA /* wyc-logobuttonret2.png in Resources */,
+				F350F3F117178672009CADFA /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
