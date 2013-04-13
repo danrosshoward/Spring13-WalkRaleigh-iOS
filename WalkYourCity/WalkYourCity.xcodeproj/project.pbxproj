@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F350F3F31717B474009CADFA /* blackbackbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = F350F3F21717B474009CADFA /* blackbackbutton.png */; };
-		F350F3F71717B8CB009CADFA /* redbackbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = F350F3F61717B8CB009CADFA /* redbackbutton.png */; };
 		F399536B1701DEB20072362E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F399536A1701DEB20072362E /* UIKit.framework */; };
 		F399536D1701DEB20072362E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F399536C1701DEB20072362E /* Foundation.framework */; };
 		F399536F1701DEB20072362E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F399536E1701DEB20072362E /* CoreGraphics.framework */; };
@@ -24,8 +22,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F350F3F21717B474009CADFA /* blackbackbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackbackbutton.png; sourceTree = "<group>"; };
-		F350F3F61717B8CB009CADFA /* redbackbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redbackbutton.png; sourceTree = "<group>"; };
 		F39953671701DEB20072362E /* WalkYourCity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalkYourCity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F399536A1701DEB20072362E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F399536C1701DEB20072362E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -113,8 +109,6 @@
 		F39953711701DEB20072362E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F350F3F21717B474009CADFA /* blackbackbutton.png */,
-				F350F3F61717B8CB009CADFA /* redbackbutton.png */,
 				F39953721701DEB20072362E /* WalkYourCity-Info.plist */,
 				F39953731701DEB20072362E /* InfoPlist.strings */,
 				F39953761701DEB20072362E /* main.m */,
@@ -183,8 +177,6 @@
 				F399537F1701DEB20072362E /* Default@2x.png in Resources */,
 				F39953811701DEB20072362E /* Default-568h@2x.png in Resources */,
 				F39953841701DEB20072362E /* MainStoryboard.storyboard in Resources */,
-				F350F3F31717B474009CADFA /* blackbackbutton.png in Resources */,
-				F350F3F71717B8CB009CADFA /* redbackbutton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
